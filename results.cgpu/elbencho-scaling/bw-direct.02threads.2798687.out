@@ -1,0 +1,22 @@
+ISO DATE: 2022-03-09T11:02:33-0800
+COMMAND LINE: "/global/u2/g/glock/src/elbencho/bin.cgpu/elbencho" "--hosts" "cgpu03,cgpu04,cgpu05,cgpu06," "--threads" "2" "--files" "1" "--size" "1t" "--block" "1m" "--blockvaralgo" "fast" "--blockvarpct" "100" "--mkdirs" "--write" "--sync" "--dirsharing" "--direct" "--delfiles" "--deldirs" "--timelimit" "45" "--resfile" "bw-direct.02threads.2798687.out" "--csvfile" "bw-direct.02threads.2798687.csv" "--livecsv" "bw-direct.02threads.2798687.live.csv" "--liveint" "5000" "--nolive" "/vast/glock" 
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+MKDIRS    Elapsed ms       :          2          7
+          Dirs/s           :        793       1077
+          Dirs total       :          2          8
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+WRITE     Elapsed ms       :      45244      45250
+          IOPS             :       2254       2272
+          Throughput MiB/s :       2254       2272
+          Total MiB        :     101982     102838
+---
+

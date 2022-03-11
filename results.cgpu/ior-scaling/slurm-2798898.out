@@ -1,0 +1,350 @@
++ for threads in 1 2 4 8 16 24 32
++ srun -N 4 -n 4 /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+IOR-3.4.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Wed Mar  9 11:50:52 2022
+Command line        : /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+Machine             : Linux cgpu07 4.12.14-lp150.12.82-default #1 SMP Tue Nov 12 16:32:38 UTC 2019 (c939e24) x86_64
+TestID              : 0
+StartTime           : Wed Mar  9 11:50:52 2022
+Path                : /vast/glock/testFile.00000000
+FS                  : 1021.0 TiB   Used FS: 5.3%   Inodes: 1629.4 Mi   Used Inodes: 1.5%
+Participating tasks : 4
+
+Options: 
+api                 : posix
+apiVersion          : 
+test filename       : /vast/glock/testFile
+access              : file-per-process
+type                : independent
+segments            : 1024
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 4
+tasks               : 4
+clients per node    : 1
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 1 GiB
+aggregate filesize  : 4 TiB
+verbose             : 2
+stonewallingTime    : 45
+stoneWallingWearOut : 0
+
+Results: 
+Using Time Stamp 1646855452 (0x6229051c) for Data Signature
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+Commencing write performance test: Wed Mar  9 11:50:52 2022
+WARNING: Expected aggregate file size       = 4398046511104
+WARNING: Stat() of aggregate file size      = 65525514240
+WARNING: Using actual aggregate bytes moved = 65525514240
+WARNING: Maybe caused by deadlineForStonewalling
+write     1388.47    1388.55    0.043948    1048576    1024.00    0.004111   45.00      0.001356   45.01      0   
+remove    -          -          -           -          -          -          -          -          0.012935   0   
+Max Write: 1388.47 MiB/sec (1455.91 MB/sec)
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write        1388.47    1388.47    1388.47       0.00    1388.47    1388.47    1388.47       0.00   45.00645         NA            NA     0      4   1    1   1     0        1         0    0   1024 1073741824  1048576   62490.0 posix      0
+Finished            : Wed Mar  9 11:51:37 2022
++ for threads in 1 2 4 8 16 24 32
++ srun -N 4 -n 8 /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+IOR-3.4.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Wed Mar  9 11:51:38 2022
+Command line        : /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+Machine             : Linux cgpu07 4.12.14-lp150.12.82-default #1 SMP Tue Nov 12 16:32:38 UTC 2019 (c939e24) x86_64
+TestID              : 0
+StartTime           : Wed Mar  9 11:51:38 2022
+Path                : /vast/glock/testFile.00000000
+FS                  : 1020.5 TiB   Used FS: 5.3%   Inodes: 1629.4 Mi   Used Inodes: 1.5%
+Participating tasks : 8
+
+Options: 
+api                 : posix
+apiVersion          : 
+test filename       : /vast/glock/testFile
+access              : file-per-process
+type                : independent
+segments            : 1024
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 4
+tasks               : 8
+clients per node    : 2
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 1 GiB
+aggregate filesize  : 8 TiB
+verbose             : 2
+stonewallingTime    : 45
+stoneWallingWearOut : 0
+
+Results: 
+Using Time Stamp 1646855498 (0x6229054a) for Data Signature
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+Commencing write performance test: Wed Mar  9 11:51:38 2022
+WARNING: Expected aggregate file size       = 8796093022208
+WARNING: Stat() of aggregate file size      = 108737331200
+WARNING: Using actual aggregate bytes moved = 108737331200
+WARNING: Maybe caused by deadlineForStonewalling
+write     2303.85    2304.06    0.043947    1048576    1024.00    0.009621   45.01      0.006249   45.01      0   
+remove    -          -          -           -          -          -          -          -          0.008906   0   
+Max Write: 2303.85 MiB/sec (2415.77 MB/sec)
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write        2303.85    2303.85    2303.85       0.00    2303.85    2303.85    2303.85       0.00   45.01155         NA            NA     0      8   2    1   1     0        1         0    0   1024 1073741824  1048576  103700.0 posix      0
+Finished            : Wed Mar  9 11:52:23 2022
++ for threads in 1 2 4 8 16 24 32
++ srun -N 4 -n 16 /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+IOR-3.4.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Wed Mar  9 11:52:25 2022
+Command line        : /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+Machine             : Linux cgpu07 4.12.14-lp150.12.82-default #1 SMP Tue Nov 12 16:32:38 UTC 2019 (c939e24) x86_64
+TestID              : 0
+StartTime           : Wed Mar  9 11:52:25 2022
+Path                : /vast/glock/testFile.00000000
+FS                  : 1019.5 TiB   Used FS: 5.3%   Inodes: 1629.4 Mi   Used Inodes: 1.5%
+Participating tasks : 16
+
+Options: 
+api                 : posix
+apiVersion          : 
+test filename       : /vast/glock/testFile
+access              : file-per-process
+type                : independent
+segments            : 1024
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 4
+tasks               : 16
+clients per node    : 4
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 1 GiB
+aggregate filesize  : 16 TiB
+verbose             : 2
+stonewallingTime    : 45
+stoneWallingWearOut : 0
+
+Results: 
+Using Time Stamp 1646855545 (0x62290579) for Data Signature
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+Commencing write performance test: Wed Mar  9 11:52:25 2022
+WARNING: Expected aggregate file size       = 17592186044416
+WARNING: Stat() of aggregate file size      = 165301714944
+WARNING: Using actual aggregate bytes moved = 165301714944
+WARNING: Maybe caused by deadlineForStonewalling
+write     3500.99    3501.19    0.043947    1048576    1024.00    0.025222   45.03      0.024993   45.03      0   
+remove    -          -          -           -          -          -          -          -          0.021087   0   
+Max Write: 3500.99 MiB/sec (3671.05 MB/sec)
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write        3500.99    3500.99    3500.99       0.00    3500.99    3500.99    3500.99       0.00   45.02841         NA            NA     0     16   4    1   1     0        1         0    0   1024 1073741824  1048576  157644.0 posix      0
+Finished            : Wed Mar  9 11:53:10 2022
++ for threads in 1 2 4 8 16 24 32
++ srun -N 4 -n 32 /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+IOR-3.4.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Wed Mar  9 11:53:12 2022
+Command line        : /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+Machine             : Linux cgpu07 4.12.14-lp150.12.82-default #1 SMP Tue Nov 12 16:32:38 UTC 2019 (c939e24) x86_64
+TestID              : 0
+StartTime           : Wed Mar  9 11:53:12 2022
+Path                : /vast/glock/testFile.00000000
+FS                  : 1019.7 TiB   Used FS: 5.3%   Inodes: 1629.4 Mi   Used Inodes: 1.5%
+Participating tasks : 32
+
+Options: 
+api                 : posix
+apiVersion          : 
+test filename       : /vast/glock/testFile
+access              : file-per-process
+type                : independent
+segments            : 1024
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 4
+tasks               : 32
+clients per node    : 8
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 1 GiB
+aggregate filesize  : 32 TiB
+verbose             : 2
+stonewallingTime    : 45
+stoneWallingWearOut : 0
+
+Results: 
+Using Time Stamp 1646855592 (0x622905a8) for Data Signature
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+Commencing write performance test: Wed Mar  9 11:53:12 2022
+WARNING: Expected aggregate file size       = 35184372088832
+WARNING: Stat() of aggregate file size      = 189654892544
+WARNING: Using actual aggregate bytes moved = 189654892544
+WARNING: Maybe caused by deadlineForStonewalling
+write     4008       4009       0.043959    1048576    1024.00    0.083223   45.12      0.104071   45.12      0   
+remove    -          -          -           -          -          -          -          -          0.131324   0   
+Max Write: 4008.49 MiB/sec (4203.21 MB/sec)
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write        4008.49    4008.49    4008.49       0.00    4008.49    4008.49    4008.49       0.00   45.12145         NA            NA     0     32   8    1   1     0        1         0    0   1024 1073741824  1048576  180869.0 posix      0
+Finished            : Wed Mar  9 11:53:58 2022
++ for threads in 1 2 4 8 16 24 32
++ srun -N 4 -n 64 /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+IOR-3.4.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Wed Mar  9 11:54:02 2022
+Command line        : /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+Machine             : Linux cgpu07 4.12.14-lp150.12.82-default #1 SMP Tue Nov 12 16:32:38 UTC 2019 (c939e24) x86_64
+TestID              : 0
+StartTime           : Wed Mar  9 11:54:02 2022
+Path                : /vast/glock/testFile.00000000
+FS                  : 1019.6 TiB   Used FS: 5.3%   Inodes: 1629.4 Mi   Used Inodes: 1.5%
+Participating tasks : 64
+
+Options: 
+api                 : posix
+apiVersion          : 
+test filename       : /vast/glock/testFile
+access              : file-per-process
+type                : independent
+segments            : 1024
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 4
+tasks               : 64
+clients per node    : 16
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 1 GiB
+aggregate filesize  : 64 TiB
+verbose             : 2
+stonewallingTime    : 45
+stoneWallingWearOut : 0
+
+Results: 
+Using Time Stamp 1646855642 (0x622905da) for Data Signature
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+Commencing write performance test: Wed Mar  9 11:54:02 2022
+WARNING: Expected aggregate file size       = 70368744177664
+WARNING: Stat() of aggregate file size      = 209303109632
+WARNING: Using actual aggregate bytes moved = 209303109632
+WARNING: Maybe caused by deadlineForStonewalling
+write     4418       4419       0.043965    1048576    1024.00    0.177703   45.17      0.167498   45.18      0   
+remove    -          -          -           -          -          -          -          -          0.149879   0   
+Max Write: 4418.22 MiB/sec (4632.84 MB/sec)
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write        4418.22    4418.22    4418.22       0.00    4418.22    4418.22    4418.22       0.00   45.17813         NA            NA     0     64  16    1   1     0        1         0    0   1024 1073741824  1048576  199607.0 posix      0
+Finished            : Wed Mar  9 11:54:47 2022
++ for threads in 1 2 4 8 16 24 32
++ srun -N 4 -n 96 /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+IOR-3.4.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Wed Mar  9 11:54:52 2022
+Command line        : /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+Machine             : Linux cgpu07 4.12.14-lp150.12.82-default #1 SMP Tue Nov 12 16:32:38 UTC 2019 (c939e24) x86_64
+TestID              : 0
+StartTime           : Wed Mar  9 11:54:52 2022
+Path                : /vast/glock/testFile.00000000
+FS                  : 1022.2 TiB   Used FS: 5.3%   Inodes: 1629.4 Mi   Used Inodes: 1.5%
+Participating tasks : 96
+
+Options: 
+api                 : posix
+apiVersion          : 
+test filename       : /vast/glock/testFile
+access              : file-per-process
+type                : independent
+segments            : 1024
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 4
+tasks               : 96
+clients per node    : 24
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 1 GiB
+aggregate filesize  : 96 TiB
+verbose             : 2
+stonewallingTime    : 45
+stoneWallingWearOut : 0
+
+Results: 
+Using Time Stamp 1646855692 (0x6229060c) for Data Signature
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+Commencing write performance test: Wed Mar  9 11:54:52 2022
+WARNING: Expected aggregate file size       = 105553116266496
+WARNING: Stat() of aggregate file size      = 268549750784
+WARNING: Using actual aggregate bytes moved = 268549750784
+WARNING: Maybe caused by deadlineForStonewalling
+write     5636       5637       0.043950    1048576    1024.00    0.438660   45.44      0.429838   45.44      0   
+remove    -          -          -           -          -          -          -          -          0.082674   0   
+Max Write: 5636.05 MiB/sec (5909.82 MB/sec)
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write        5636.05    5636.05    5636.05       0.00    5636.05    5636.05    5636.05       0.00   45.44125         NA            NA     0     96  24    1   1     0        1         0    0   1024 1073741824  1048576  256109.0 posix      0
+Finished            : Wed Mar  9 11:55:38 2022
++ for threads in 1 2 4 8 16 24 32
++ srun -N 4 -n 128 /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+IOR-3.4.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Wed Mar  9 11:55:45 2022
+Command line        : /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+Machine             : Linux cgpu07 4.12.14-lp150.12.82-default #1 SMP Tue Nov 12 16:32:38 UTC 2019 (c939e24) x86_64
+TestID              : 0
+StartTime           : Wed Mar  9 11:55:45 2022
+Path                : /vast/glock/testFile.00000000
+FS                  : 1024.4 TiB   Used FS: 5.3%   Inodes: 1629.4 Mi   Used Inodes: 1.5%
+Participating tasks : 128
+
+Options: 
+api                 : posix
+apiVersion          : 
+test filename       : /vast/glock/testFile
+access              : file-per-process
+type                : independent
+segments            : 1024
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 4
+tasks               : 128
+clients per node    : 32
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 1 GiB
+aggregate filesize  : 128 TiB
+verbose             : 2
+stonewallingTime    : 45
+stoneWallingWearOut : 0
+
+Results: 
+Using Time Stamp 1646855745 (0x62290641) for Data Signature
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+Commencing write performance test: Wed Mar  9 11:55:46 2022
+WARNING: Expected aggregate file size       = 140737488355328
+WARNING: Stat() of aggregate file size      = 335716286464
+WARNING: Using actual aggregate bytes moved = 335716286464
+WARNING: Maybe caused by deadlineForStonewalling
+write     7020       7020       0.043952    1048576    1024.00    0.608956   45.61      0.594920   45.61      0   
+remove    -          -          -           -          -          -          -          -          0.120998   0   
+Max Write: 7019.75 MiB/sec (7360.75 MB/sec)
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write        7019.75    7019.75    7019.75       0.00    7019.75    7019.75    7019.75       0.00   45.60901         NA            NA     0    128  32    1   1     0        1         0    0   1024 1073741824  1048576  320164.0 posix      0
+Finished            : Wed Mar  9 11:56:31 2022

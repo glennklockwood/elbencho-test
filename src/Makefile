@@ -1,10 +1,15 @@
-.PHONY: default
+.PHONY: default clean
 
 ELB_VERSION = 57ed7b6bf5c144bb70e5eb119bb4248b06b328ec
 ELB_MAKE_FLAGS = BUILD_STATIC=0 LIBAIO_SUPPORT=1 LIBNUMA_SUPPORT=1
 ELB_MAKE_FLAGS = BUILD_STATIC=1 LIBAIO_SUPPORT=0 
 
+LIBNUMA_LIB_PATH := $(NUMACTL_LIB)
+
 default: elbencho/bin.perlmutter/elbencho
+
+clean:
+	(cd elbencho && make clean)
 
 elbencho:
 	git clone https://github.com/glennklockwood/elbencho.git "$@" && cd elbencho && git checkout $(ELB_VERSION)

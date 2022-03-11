@@ -1,5 +1,6 @@
 ## Cori
 
+    module swap PrgEnv-intel PrgEnv-gnu
     module load boost numactl
 
 ## Cori GPU

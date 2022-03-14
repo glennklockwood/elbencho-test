@@ -1,0 +1,1 @@
+../../results.cgpu/elbencho-scaling/summarize.sh

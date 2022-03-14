@@ -1,0 +1,1280 @@
+Service now listening. Port: 1611
+Service now listening. Port: 1611
+Service now listening. Port: 1611
+Service now listening. Port: 1611
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:57:34-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:57:34-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:57:34-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:57:34-0800)
+
+
+
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+MKDIRS    Elapsed ms       :          7          7
+          Dirs/s           :        137        137
+          Dirs total       :          1          1
+---
+
+MKDIRS    Elapsed ms       :          7          7
+          Dirs/s           :        138        138
+          Dirs total       :          1          1
+---
+
+MKDIRS    Elapsed ms       :          7          7
+          Dirs/s           :        141        141
+          Dirs total       :          1          1
+---
+
+MKDIRS    Elapsed ms       :          7          7
+          Dirs/s           :        137        137
+          Dirs total       :          1          1
+---
+
+MKDIRS    Elapsed ms       :          7          7
+          Dirs/s           :        141        548
+          Dirs total       :          1          4
+---
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+WRITE     Elapsed ms       :      45281      45281
+          IOPS             :        656        656
+          Throughput MiB/s :        656        656
+          Total MiB        :      29731      29731
+---
+
+WRITE     Elapsed ms       :      45284      45284
+          IOPS             :        646        646
+          Throughput MiB/s :        646        646
+          Total MiB        :      29287      29287
+---
+
+WRITE     Elapsed ms       :      45284      45284
+          IOPS             :        654        654
+          Throughput MiB/s :        654        654
+          Total MiB        :      29619      29619
+---
+
+WRITE     Elapsed ms       :      45285      45285
+          IOPS             :        672        672
+          Throughput MiB/s :        672        672
+          Total MiB        :      30473      30473
+---
+
+WRITE     Elapsed ms       :      45281      45285
+          IOPS             :       2611       2630
+          Throughput MiB/s :       2611       2630
+          Total MiB        :     118246     119110
+---
+Terminating due to phase time limit.
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:58:20-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:58:20-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:58:20-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:58:20-0800)
+
+
+
+
+RMFILES   Elapsed ms       :          0          0
+          Files/s          :       1960       1960
+          Files total      :          1          1
+---
+
+RMFILES   Elapsed ms       :          0          0
+          Files/s          :       1992       1992
+          Files total      :          1          1
+---
+
+RMFILES   Elapsed ms       :          0          0
+          Files/s          :       1937       1937
+          Files total      :          1          1
+---
+
+RMFILES   Elapsed ms       :          0          0
+          Files/s          :       2159       2159
+          Files total      :          1          1
+---
+
+RMDIRS    Elapsed ms       :          0          0
+          Dirs/s           :       1091       1091
+          Dirs total       :          1          1
+---
+
+RMDIRS    Elapsed ms       :          1          1
+          Dirs/s           :        973        973
+          Dirs total       :          1          1
+---
+
+RMDIRS    Elapsed ms       :          0          0
+          Dirs/s           :       1051       1051
+          Dirs total       :          1          1
+---
+
+RMDIRS    Elapsed ms       :          1          1
+          Dirs/s           :        996        996
+          Dirs total       :          1          1
+---
+
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:58:20-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:58:20-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:58:20-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:58:20-0800)
+
+
+
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+MKDIRS    Elapsed ms       :          0          1
+          Dirs/s           :       1021       1824
+          Dirs total       :          1          2
+---
+
+MKDIRS    Elapsed ms       :          0          0
+          Dirs/s           :       2442       2192
+          Dirs total       :          2          2
+---
+
+MKDIRS    Elapsed ms       :          0          1
+          Dirs/s           :       1074       1766
+          Dirs total       :          1          2
+---
+
+MKDIRS    Elapsed ms       :          0          0
+          Dirs/s           :       1245       2229
+          Dirs total       :          1          2
+---
+
+MKDIRS    Elapsed ms       :          0          1
+          Dirs/s           :       2490       7067
+          Dirs total       :          2          8
+---
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+WRITE     Elapsed ms       :      45253      45254
+          IOPS             :       1136       1136
+          Throughput MiB/s :       1136       1136
+          Total MiB        :      51443      51444
+---
+
+WRITE     Elapsed ms       :      45253      45254
+          IOPS             :        982        982
+          Throughput MiB/s :        982        982
+          Total MiB        :      44445      44446
+---
+
+WRITE     Elapsed ms       :      45253      45254
+          IOPS             :       1014       1014
+          Throughput MiB/s :       1014       1014
+          Total MiB        :      45895      45896
+---
+
+WRITE     Elapsed ms       :      45254      45254
+          IOPS             :       1003       1003
+          Throughput MiB/s :       1003       1003
+          Total MiB        :      45396      45396
+---
+
+WRITE     Elapsed ms       :      45253      45254
+          IOPS             :       4103       4136
+          Throughput MiB/s :       4103       4136
+          Total MiB        :     185684     187182
+---
+Terminating due to phase time limit.
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:06-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:06-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:06-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:06-0800)
+
+
+
+
+RMFILES   Elapsed ms       :          0          0
+          Files/s          :       2136       2574
+          Files total      :          1          2
+---
+
+RMFILES   Elapsed ms       :          0          0
+          Files/s          :       2227       2544
+          Files total      :          1          2
+---
+
+RMFILES   Elapsed ms       :          0          0
+          Files/s          :       2369       2789
+          Files total      :          1          2
+---
+
+RMFILES   Elapsed ms       :          0          0
+          Files/s          :       2304       2290
+          Files total      :          1          2
+---
+
+RMDIRS    Elapsed ms       :          0          0
+          Dirs/s           :       2487       2143
+          Dirs total       :          2          2
+---
+
+RMDIRS    Elapsed ms       :          0          1
+          Dirs/s           :       1150       1696
+RMDIRS    Elapsed ms       :          0          1
+          Dirs/s           :       1219       1787
+          Dirs total       :          1          2
+---
+
+RMDIRS    Elapsed ms       :          0          1
+          Dirs/s           :       1046       1618
+          Dirs total       :          1          2
+---
+
+          Dirs total       :          1          2
+---
+
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:07-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:07-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:07-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:07-0800)
+
+
+
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+MKDIRS    Elapsed ms       :          1          1
+          Dirs/s           :       1389       2398
+          Dirs total       :          2          4
+---
+
+MKDIRS    Elapsed ms       :          1          1
+          Dirs/s           :        754       2371
+          Dirs total       :          1          4
+---
+
+MKDIRS    Elapsed ms       :          1          1
+          Dirs/s           :        702       2272
+          Dirs total       :          1          4
+---
+
+MKDIRS    Elapsed ms       :          1          1
+          Dirs/s           :       1362       2298
+          Dirs total       :          2          4
+---
+
+MKDIRS    Elapsed ms       :          1          1
+          Dirs/s           :       3016       9090
+          Dirs total       :          4         16
+---
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+WRITE     Elapsed ms       :      45253      45254
+          IOPS             :       1269       1269
+          Throughput MiB/s :       1269       1269
+          Total MiB        :      57465      57467
+---
+
+WRITE     Elapsed ms       :      45254      45254
+          IOPS             :       1320       1320
+          Throughput MiB/s :       1320       1320
+          Total MiB        :      59742      59742
+---
+
+WRITE     Elapsed ms       :      45254      45254
+          IOPS             :       1322       1322
+          Throughput MiB/s :       1322       1322
+          Total MiB        :      59827      59828
+---
+
+WRITE     Elapsed ms       :      45254      45254
+          IOPS             :       1285       1285
+          Throughput MiB/s :       1285       1285
+          Total MiB        :      58154      58155
+---
+
+WRITE     Elapsed ms       :      45253      45254
+          IOPS             :       5152       5197
+          Throughput MiB/s :       5152       5197
+          Total MiB        :     233152     235192
+---
+Terminating due to phase time limit.
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:53-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:53-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:53-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:53-0800)
+
+
+
+
+RMFILES   Elapsed ms       :          0          1
+          Files/s          :       2352       2704
+          Files total      :          1          4
+---
+
+RMFILES   Elapsed ms       :          0          1
+          Files/s          :       1865       2555
+          Files total      :          1          4
+---
+
+RMFILES   Elapsed ms       :          0          1
+          Files/s          :       2049       2906
+          Files total      :          1          4
+---
+
+RMFILES   Elapsed ms       :          0          1
+          Files/s          :       2257       2871
+          Files total      :          1          4
+---
+
+RMDIRS    Elapsed ms       :          1          1
+          Dirs/s           :       3051       2444
+          Dirs total       :          4          4
+---
+
+RMDIRS    Elapsed ms       :          1          1
+          Dirs/s           :       3700       2834
+          Dirs total       :          4          4
+---
+
+RMDIRS    Elapsed ms       :          1          1
+          Dirs/s           :        841       2222
+          Dirs total       :          1          4
+---
+
+RMDIRS    Elapsed ms       :          1          1
+          Dirs/s           :        801       2139
+          Dirs total       :          1          4
+---
+
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:53-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:53-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:53-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T15:59:53-0800)
+
+
+
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+MKDIRS    Elapsed ms       :          1          2
+          Dirs/s           :        526       3062
+          Dirs total       :          1          8
+---
+
+MKDIRS    Elapsed ms       :          1          2
+          Dirs/s           :        507       3081
+          Dirs total       :          1          8
+---
+
+MKDIRS    Elapsed ms       :          1          2
+          Dirs/s           :        529       3059
+          Dirs total       :          1          8
+---
+
+MKDIRS    Elapsed ms       :          1          2
+          Dirs/s           :        517       3008
+          Dirs total       :          1          8
+---
+
+MKDIRS    Elapsed ms       :          1          2
+          Dirs/s           :       4237      12034
+          Dirs total       :          8         32
+---
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+WRITE     Elapsed ms       :      45253      45276
+          IOPS             :       1681       1680
+          Throughput MiB/s :       1681       1680
+          Total MiB        :      76077      76084
+---
+
+WRITE     Elapsed ms       :      45254      45277
+          IOPS             :       1535       1535
+          Throughput MiB/s :       1535       1535
+          Total MiB        :      69498      69504
+---
+
+WRITE     Elapsed ms       :      45253      45276
+          IOPS             :       1596       1596
+          Throughput MiB/s :       1596       1596
+          Total MiB        :      72256      72263
+---
+
+WRITE     Elapsed ms       :      45276      45277
+          IOPS             :       1733       1733
+          Throughput MiB/s :       1733       1733
+          Total MiB        :      78473      78479
+---
+
+WRITE     Elapsed ms       :      45253      45277
+          IOPS             :       6499       6544
+          Throughput MiB/s :       6499       6544
+          Total MiB        :     294144     296330
+---
+Terminating due to phase time limit.
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:00:39-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:00:39-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:00:39-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:00:39-0800)
+
+
+
+
+RMFILES   Elapsed ms       :          0          2
+          Files/s          :       1912       2852
+          Files total      :          1          8
+---
+
+RMFILES   Elapsed ms       :          0          2
+          Files/s          :       2136       2766
+          Files total      :          1          8
+---
+
+RMFILES   Elapsed ms       :          0          3
+          Files/s          :       2096       2664
+          Files total      :          1          8
+---
+
+RMFILES   Elapsed ms       :          0          3
+          Files/s          :       1926       2395
+          Files total      :          1          8
+---
+
+RMDIRS    Elapsed ms       :          1          2
+          Dirs/s           :        747       2792
+          Dirs total       :          1          8
+---
+
+RMDIRS    Elapsed ms       :          1          2
+          Dirs/s           :       2136       2745
+          Dirs total       :          4          8
+---
+
+RMDIRS    Elapsed ms       :          1          2
+          Dirs/s           :        777       3068
+          Dirs total       :          1          8
+---
+
+RMDIRS    Elapsed ms       :          1          1
+          Dirs/s           :       4184       4012
+          Dirs total       :          5          8
+---
+
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:00:40-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:00:40-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:00:40-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:00:40-0800)
+
+
+
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+MKDIRS    Elapsed ms       :          2          4
+          Dirs/s           :        672       3606
+          Dirs total       :          2         16
+---
+
+MKDIRS    Elapsed ms       :          2          4
+          Dirs/s           :        716       3940
+          Dirs total       :          2         16
+---
+
+MKDIRS    Elapsed ms       :          3          4
+          Dirs/s           :        323       3368
+          Dirs total       :          1         16
+---
+
+MKDIRS    Elapsed ms       :          2          4
+          Dirs/s           :        354       3659
+          Dirs total       :          1         16
+---
+
+MKDIRS    Elapsed ms       :          2          4
+          Dirs/s           :       5734      13473
+          Dirs total       :         16         64
+---
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+WRITE     Elapsed ms       :      45256      45257
+          IOPS             :       2246       2246
+          Throughput MiB/s :       2246       2246
+          Total MiB        :     101666     101677
+---
+
+WRITE     Elapsed ms       :      45254      45257
+          IOPS             :       2226       2227
+          Throughput MiB/s :       2226       2227
+          Total MiB        :     100776     100790
+---
+
+WRITE     Elapsed ms       :      45256      45257
+          IOPS             :       2250       2250
+          Throughput MiB/s :       2250       2250
+          Total MiB        :     101856     101868
+---
+
+WRITE     Elapsed ms       :      45256      45257
+          IOPS             :       2241       2241
+          Throughput MiB/s :       2241       2241
+          Total MiB        :     101443     101446
+---
+
+WRITE     Elapsed ms       :      45254      45257
+          IOPS             :       8910       8966
+          Throughput MiB/s :       8910       8966
+          Total MiB        :     403251     405781
+---
+Terminating due to phase time limit.
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:01:26-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:01:26-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:01:26-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:01:26-0800)
+
+
+
+
+RMFILES   Elapsed ms       :          0          5
+          Files/s          :       2341       3018
+          Files total      :          1         16
+---
+
+RMFILES   Elapsed ms       :          0          5
+          Files/s          :       2314       3115
+          Files total      :          1         16
+---
+
+RMFILES   Elapsed ms       :          0          5
+          Files/s          :       2252       3032
+          Files total      :          1         16
+---
+
+RMFILES   Elapsed ms       :          0          5
+          Files/s          :       2293       3044
+          Files total      :          1         16
+---
+
+RMDIRS    Elapsed ms       :          1          4
+          Dirs/s           :        640       3723
+          Dirs total       :          1         16
+---
+
+RMDIRS    Elapsed ms       :          1          3
+          Dirs/s           :       3412       5118
+          Dirs total       :          5         16
+---
+
+RMDIRS    Elapsed ms       :          2          5
+          Dirs/s           :       1355       3093
+          Dirs total       :          4         16
+---
+
+RMDIRS    Elapsed ms       :          1          4
+          Dirs/s           :        671       3678
+          Dirs total       :          1         16
+---
+
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:01:26-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:01:26-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:01:26-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:01:26-0800)
+
+
+
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+MKDIRS    Elapsed ms       :          1          4
+          Dirs/s           :       1556       5804
+          Dirs total       :          2         24
+---
+
+MKDIRS    Elapsed ms       :          3          5
+          Dirs/s           :        651       4462
+          Dirs total       :          2         24
+---
+
+MKDIRS    Elapsed ms       :          3          5
+          Dirs/s           :        584       4402
+          Dirs total       :          2         24
+---
+
+MKDIRS    Elapsed ms       :          0          4
+          Dirs/s           :       1084       5961
+          Dirs total       :          1         24
+---
+
+MKDIRS    Elapsed ms       :          0          5
+          Dirs/s           :      26030      17611
+          Dirs total       :         24         96
+---
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+WRITE     Elapsed ms       :      45256      45259
+          IOPS             :       2463       2463
+          Throughput MiB/s :       2463       2463
+          Total MiB        :     111468     111483
+---
+
+WRITE     Elapsed ms       :      45256      45258
+          IOPS             :       2497       2497
+          Throughput MiB/s :       2497       2497
+          Total MiB        :     113017     113024
+---
+
+WRITE     Elapsed ms       :      45256      45259
+          IOPS             :       2481       2481
+          Throughput MiB/s :       2481       2481
+          Total MiB        :     112306     112314
+---
+
+WRITE     Elapsed ms       :      45256      45258
+          IOPS             :       2451       2451
+          Throughput MiB/s :       2451       2451
+          Total MiB        :     110931     110941
+---
+
+WRITE     Elapsed ms       :      45256      45259
+          IOPS             :       9820       9893
+          Throughput MiB/s :       9820       9893
+          Total MiB        :     444415     447762
+---
+Terminating due to phase time limit.
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:12-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:12-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:12-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:12-0800)
+
+
+
+
+RMFILES   Elapsed ms       :          0          7
+          Files/s          :       2217       3231
+          Files total      :          1         24
+---
+
+RMFILES   Elapsed ms       :          0          7
+          Files/s          :       2631       3181
+          Files total      :          1         24
+---
+
+RMFILES   Elapsed ms       :          0          7
+          Files/s          :       2506       3231
+          Files total      :          1         24
+---
+
+RMFILES   Elapsed ms       :          0          7
+          Files/s          :       2469       3226
+          Files total      :          1         24
+---
+
+RMDIRS    Elapsed ms       :          0          3
+          Dirs/s           :       7963       6681
+          Dirs total       :          7         24
+---
+
+RMDIRS    Elapsed ms       :          1          5
+          Dirs/s           :        963       4635
+          Dirs total       :          1         24
+---
+
+RMDIRS    Elapsed ms       :          1          5
+          Dirs/s           :        917       4679
+          Dirs total       :          1         24
+---
+
+RMDIRS    Elapsed ms       :          1          5
+          Dirs/s           :        996       4750
+          Dirs total       :          1         24
+---
+
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:13-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:13-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:13-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:13-0800)
+
+
+
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+MKDIRS    Elapsed ms       :          5          7
+          Dirs/s           :        385       4039
+          Dirs total       :          2         32
+---
+
+MKDIRS    Elapsed ms       :          3          6
+          Dirs/s           :        329       4892
+MKDIRS    Elapsed ms       :          4          7
+          Dirs/s           :        220       4210
+          Dirs total       :          1         32
+---
+
+          Dirs total       :          1         32
+---
+
+MKDIRS    Elapsed ms       :          0          4
+          Dirs/s           :       1501       6545
+          Dirs total       :          1         32
+---
+
+MKDIRS    Elapsed ms       :          0          7
+          Dirs/s           :      48048      16157
+          Dirs total       :         32        128
+---
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+WRITE     Elapsed ms       :      45257      45268
+          IOPS             :       2574       2574
+          Throughput MiB/s :       2574       2574
+          Total MiB        :     116513     116543
+---
+
+WRITE     Elapsed ms       :      45265      45268
+          IOPS             :       2547       2547
+          Throughput MiB/s :       2547       2547
+          Total MiB        :     115302     115331
+---
+WRITE     Elapsed ms       :      45265      45268
+          IOPS             :       2592       2592
+          Throughput MiB/s :       2592       2592
+          Total MiB        :     117332     117346
+---
+
+
+WRITE     Elapsed ms       :      45256      45268
+          IOPS             :       2601       2601
+          Throughput MiB/s :       2601       2601
+          Total MiB        :     117720     117750
+---
+
+WRITE     Elapsed ms       :      45256      45268
+          IOPS             :      10213      10315
+          Throughput MiB/s :      10213      10315
+          Total MiB        :     462210     466970
+---
+Terminating due to phase time limit.
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:59-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:59-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:59-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:59-0800)
+
+
+
+
+RMFILES   Elapsed ms       :          0          9
+          Files/s          :       2232       3261
+RMFILES   Elapsed ms       :          0          9
+          Files/s          :       2293       3303
+          Files total      :          1         32
+---
+
+RMFILES   Elapsed ms       :          0          9
+          Files/s          :       2105       3297
+          Files total      :          1         32
+---
+
+          Files total      :          1         32
+---
+
+RMFILES   Elapsed ms       :          0          9
+          Files/s          :       2036       3308
+          Files total      :          1         32
+---
+
+RMDIRS    Elapsed ms       :          1          6
+          Dirs/s           :       3780       4991
+RMDIRS    Elapsed ms       :          1          4
+          Dirs/s           :       5037       7376
+          Dirs total       :          6         32
+---
+
+RMDIRS    Elapsed ms       :          3          8
+          Dirs/s           :       1618       3858
+          Dirs total       :          6         32
+---
+
+          Dirs total       :          6         32
+---
+
+RMDIRS    Elapsed ms       :          3          8
+          Dirs/s           :       1263       3690
+          Dirs total       :          5         32
+---
+
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:59-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:59-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:59-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:02:59-0800)
+
+
+
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+MKDIRS    Elapsed ms       :          7         12
+          Dirs/s           :        260       3985
+MKDIRS    Elapsed ms       :          6         11
+          Dirs/s           :        293       4224
+          Dirs total       :          2         48
+---
+
+          Dirs total       :          2         48
+---
+
+MKDIRS    Elapsed ms       :          7         12
+          Dirs/s           :        255       3914
+MKDIRS    Elapsed ms       :          7         11
+          Dirs/s           :        265       4017
+          Dirs total       :          2         48
+---
+
+          Dirs total       :          2         48
+---
+
+MKDIRS    Elapsed ms       :          6         12
+          Dirs/s           :      14096      15658
+          Dirs total       :         96        192
+---
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+WRITE     Elapsed ms       :      45265      45266
+          IOPS             :       2640       2640
+          Throughput MiB/s :       2640       2640
+          Total MiB        :     119518     119518
+---
+
+WRITE     Elapsed ms       :      45265      45266
+          IOPS             :       2683       2683
+          Throughput MiB/s :       2683       2683
+          Total MiB        :     121463     121463
+---
+
+WRITE     Elapsed ms       :      45266      45266
+          IOPS             :       2672       2672
+          Throughput MiB/s :       2672       2672
+          Total MiB        :     120973     120975
+---
+
+WRITE     Elapsed ms       :      45266      45266
+          IOPS             :       2679       2679
+          Throughput MiB/s :       2679       2679
+          Total MiB        :     121288     121288
+---
+
+WRITE     Elapsed ms       :      45265      45266
+          IOPS             :      10581      10675
+          Throughput MiB/s :      10581      10675
+          Total MiB        :     478969     483244
+---
+Terminating due to phase time limit.
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:03:45-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:03:45-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:03:45-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:03:45-0800)
+
+
+
+
+RMFILES   Elapsed ms       :          0         14
+          Files/s          :       2127       3328
+RMFILES   Elapsed ms       :          0         14
+          Files/s          :       2518       3420
+          Files total      :          1         48
+---
+
+          Files total      :          1         48
+---
+
+RMFILES   Elapsed ms       :          0         14
+          Files/s          :       2145       3285
+          Files total      :          1         48
+---
+
+RMFILES   Elapsed ms       :          0         14
+          Files/s          :       2375       3390
+          Files total      :          1         48
+---
+
+RMDIRS    Elapsed ms       :          6         13
+          Dirs/s           :        813       3592
+          Dirs total       :          5         48
+---
+
+RMDIRS    Elapsed ms       :          1          9
+          Dirs/s           :        706       5309
+          Dirs total       :          1         48
+---
+
+RMDIRS    Elapsed ms       :          1          8
+          Dirs/s           :        689       5363
+          Dirs total       :          1         48
+---
+
+RMDIRS    Elapsed ms       :          1          6
+          Dirs/s           :       5208       7524
+          Dirs total       :          7         48
+---
+
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:03:46-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:03:46-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:03:46-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:03:46-0800)
+
+
+
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+MKDIRS    Elapsed ms       :          3         11
+          Dirs/s           :        280       5817
+          Dirs total       :          1         64
+---
+
+MKDIRS    Elapsed ms       :          2         10
+          Dirs/s           :        357       6333
+          Dirs total       :          1         64
+---
+
+MKDIRS    Elapsed ms       :          5         12
+          Dirs/s           :        166       5163
+          Dirs total       :          1         64
+---
+
+MKDIRS    Elapsed ms       :          4         11
+          Dirs/s           :        438       5467
+          Dirs total       :          2         64
+---
+
+MKDIRS    Elapsed ms       :          2         12
+          Dirs/s           :      22848      20655
+          Dirs total       :         64        256
+---
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+WRITE     Elapsed ms       :      45255      45266
+          IOPS             :       2693       2693
+          Throughput MiB/s :       2693       2693
+          Total MiB        :     121887     121910
+---
+WRITE     Elapsed ms       :      45256      45266
+          IOPS             :       2673       2673
+          Throughput MiB/s :       2673       2673
+          Total MiB        :     120980     120999
+---
+
+
+WRITE     Elapsed ms       :      45256      45266
+          IOPS             :       2701       2701
+          Throughput MiB/s :       2701       2701
+          Total MiB        :     122263     122288
+---
+
+WRITE     Elapsed ms       :      45256      45266
+          IOPS             :       2696       2696
+          Throughput MiB/s :       2696       2696
+          Total MiB        :     122045     122067
+---
+
+WRITE     Elapsed ms       :      45255      45266
+          IOPS             :      10650      10764
+          Throughput MiB/s :      10650      10764
+          Total MiB        :     481984     487264
+---
+Terminating due to phase time limit.
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:04:32-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:04:32-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:04:32-0800)
+Preparing new benchmark phase... (ISO DATE: 2022-03-11T16:04:32-0800)
+
+
+
+
+RMFILES   Elapsed ms       :          0         18
+          Files/s          :       1956       3465
+          Files total      :          1         64
+---
+
+RMFILES   Elapsed ms       :          0         18
+          Files/s          :       2087       3398
+          Files total      :          1         64
+---
+
+RMFILES   Elapsed ms       :          0         19
+          Files/s          :       2150       3313
+          Files total      :          1         64
+---
+
+RMFILES   Elapsed ms       :          0         19
+          Files/s          :       2032       3346
+          Files total      :          1         64
+---
+
+RMDIRS    Elapsed ms       :          1         11
+          Dirs/s           :       3489       5592
+          Dirs total       :          5         64
+---
+
+RMDIRS    Elapsed ms       :          3         13
+          Dirs/s           :       1381       4637
+          Dirs total       :          5         64
+---
+
+RMDIRS    Elapsed ms       :          1         10
+          Dirs/s           :       5870       5970
+          Dirs total       :          6         64
+---
+
+RMDIRS    Elapsed ms       :          3         13
+          Dirs/s           :       1412       4608
+          Dirs total       :          5         64
+---
+
+nid002545:1611: OK
+nid002544:1611: OK
+nid003489:1611: OK
+nid002548:1611: OK
+Shutting down as requested by client. Client: ::ffff:10.249.15.175
+Service stopped listening. Port: 1611
+Shutting down as requested by client. Client: ::ffff:10.249.15.176
+Service stopped listening. Port: 1611
+Shutting down as requested by client. Client: ::ffff:10.249.15.176
+Service stopped listening. Port: 1611
+Shutting down as requested by client. Client: ::ffff:10.249.15.176
+Service stopped listening. Port: 1611
+HTTP service ended.
+HTTP service ended.
+HTTP service ended.
+HTTP service ended.

@@ -1,0 +1,22 @@
+ISO DATE: 2022-03-11T15:59:07-0800
+COMMAND LINE: "../../src/elbencho/bin.perlmutter/elbencho" "--hosts" "nid002544,nid002545,nid002548,nid003489," "--threads" "4" "--files" "1" "--size" "1t" "--block" "1m" "--blockvaralgo" "fast" "--blockvarpct" "0" "--mkdirs" "--write" "--sync" "--dirsharing" "--direct" "--delfiles" "--deldirs" "--timelimit" "45" "--resfile" "bw-direct.04threads.1524250.out" "--csvfile" "bw-direct.04threads.1524250.csv" "--livecsv" "bw-direct.04threads.1524250.live.csv" "--liveint" "5000" "--nolive" "/pscratch/sd/g/glock/ost100" 
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+MKDIRS    Elapsed ms       :          1          1
+          Dirs/s           :       3016       9090
+          Dirs total       :          4         16
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+WRITE     Elapsed ms       :      45253      45254
+          IOPS             :       5152       5197
+          Throughput MiB/s :       5152       5197
+          Total MiB        :     233152     235192
+---
+

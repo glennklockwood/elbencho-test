@@ -1,0 +1,39 @@
++ for threads in 1 2 4 8 16 24 32 48 64
+++ printf %02d 1
++ output_f=bw-direct.01threads.1537553
++ srun -N 4 -n 4 /global/u2/g/glock/src/git/ior-incompress/install.perlmutter/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /pscratch/sd/g/glock/ost100/testFile
++ for threads in 1 2 4 8 16 24 32 48 64
+++ printf %02d 2
++ output_f=bw-direct.02threads.1537553
++ srun -N 4 -n 8 /global/u2/g/glock/src/git/ior-incompress/install.perlmutter/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /pscratch/sd/g/glock/ost100/testFile
++ for threads in 1 2 4 8 16 24 32 48 64
+++ printf %02d 4
++ output_f=bw-direct.04threads.1537553
++ srun -N 4 -n 16 /global/u2/g/glock/src/git/ior-incompress/install.perlmutter/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /pscratch/sd/g/glock/ost100/testFile
++ for threads in 1 2 4 8 16 24 32 48 64
+++ printf %02d 8
++ output_f=bw-direct.08threads.1537553
++ srun -N 4 -n 32 /global/u2/g/glock/src/git/ior-incompress/install.perlmutter/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /pscratch/sd/g/glock/ost100/testFile
++ for threads in 1 2 4 8 16 24 32 48 64
+++ printf %02d 16
++ output_f=bw-direct.16threads.1537553
++ srun -N 4 -n 64 /global/u2/g/glock/src/git/ior-incompress/install.perlmutter/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /pscratch/sd/g/glock/ost100/testFile
++ for threads in 1 2 4 8 16 24 32 48 64
+++ printf %02d 24
++ output_f=bw-direct.24threads.1537553
++ srun -N 4 -n 96 /global/u2/g/glock/src/git/ior-incompress/install.perlmutter/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /pscratch/sd/g/glock/ost100/testFile
+srun: Warning: can't honor --ntasks-per-node set to 64 which doesn't match the requested tasks 96 with the number of requested nodes 4. Ignoring --ntasks-per-node.
++ for threads in 1 2 4 8 16 24 32 48 64
+++ printf %02d 32
++ output_f=bw-direct.32threads.1537553
++ srun -N 4 -n 128 /global/u2/g/glock/src/git/ior-incompress/install.perlmutter/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /pscratch/sd/g/glock/ost100/testFile
+srun: Warning: can't honor --ntasks-per-node set to 64 which doesn't match the requested tasks 128 with the number of requested nodes 4. Ignoring --ntasks-per-node.
++ for threads in 1 2 4 8 16 24 32 48 64
+++ printf %02d 48
++ output_f=bw-direct.48threads.1537553
++ srun -N 4 -n 192 /global/u2/g/glock/src/git/ior-incompress/install.perlmutter/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /pscratch/sd/g/glock/ost100/testFile
+srun: Warning: can't honor --ntasks-per-node set to 64 which doesn't match the requested tasks 192 with the number of requested nodes 4. Ignoring --ntasks-per-node.
++ for threads in 1 2 4 8 16 24 32 48 64
+++ printf %02d 64
++ output_f=bw-direct.64threads.1537553
++ srun -N 4 -n 256 /global/u2/g/glock/src/git/ior-incompress/install.perlmutter/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /pscratch/sd/g/glock/ost100/testFile

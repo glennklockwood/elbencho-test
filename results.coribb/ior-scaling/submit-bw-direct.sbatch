@@ -5,8 +5,7 @@
 #SBATCH -A nstaff
 #SBATCH -C haswell
 #SBATCH -N 4
-#SBATCH --tasks-per-node 1
-#SBATCH --cpus-per-task 64
+#SBATCH --tasks-per-node 64
 #DW jobdw type=scratch access_mode=striped capacity=1TiB
 
 IOR="/global/u2/g/glock/src/git/ior-incompress/install.cori/bin/ior"

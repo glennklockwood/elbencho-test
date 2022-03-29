@@ -1,0 +1,49 @@
++ srun -N 4 -n 16 /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+IOR-3.4.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Wed Mar  9 11:52:25 2022
+Command line        : /global/u2/g/glock/src/git/n10/vast-eval/src/ior+incompress/install.cgpu/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /vast/glock/testFile
+Machine             : Linux cgpu07 4.12.14-lp150.12.82-default #1 SMP Tue Nov 12 16:32:38 UTC 2019 (c939e24) x86_64
+TestID              : 0
+StartTime           : Wed Mar  9 11:52:25 2022
+Path                : /vast/glock/testFile.00000000
+FS                  : 1019.5 TiB   Used FS: 5.3%   Inodes: 1629.4 Mi   Used Inodes: 1.5%
+Participating tasks : 16
+
+Options: 
+api                 : posix
+apiVersion          : 
+test filename       : /vast/glock/testFile
+access              : file-per-process
+type                : independent
+segments            : 1024
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 4
+tasks               : 16
+clients per node    : 4
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 1 GiB
+aggregate filesize  : 16 TiB
+verbose             : 2
+stonewallingTime    : 45
+stoneWallingWearOut : 0
+
+Results: 
+Using Time Stamp 1646855545 (0x62290579) for Data Signature
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+Commencing write performance test: Wed Mar  9 11:52:25 2022
+WARNING: Expected aggregate file size       = 17592186044416
+WARNING: Stat() of aggregate file size      = 165301714944
+WARNING: Using actual aggregate bytes moved = 165301714944
+WARNING: Maybe caused by deadlineForStonewalling
+write     3500.99    3501.19    0.043947    1048576    1024.00    0.025222   45.03      0.024993   45.03      0   
+remove    -          -          -           -          -          -          -          -          0.021087   0   
+Max Write: 3500.99 MiB/sec (3671.05 MB/sec)
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write        3500.99    3500.99    3500.99       0.00    3500.99    3500.99    3500.99       0.00   45.02841         NA            NA     0     16   4    1   1     0        1         0    0   1024 1073741824  1048576  157644.0 posix      0
+Finished            : Wed Mar  9 11:53:10 2022

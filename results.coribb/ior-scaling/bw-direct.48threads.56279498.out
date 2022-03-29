@@ -1,0 +1,48 @@
+IOR-3.4.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Fri Mar 18 23:26:57 2022
+Command line        : /global/u2/g/glock/src/git/ior-incompress/install.cori/bin/ior -a posix -F -t 1m -b 1g -s 1024 -l random -w -e --posix.odirect -D 45 -vv -o /var/opt/cray/dws/mounts/batch/56279498_striped_scratch//testFile
+Machine             : Linux nid02147 5.3.18-24.46_6.0.27-cray_ari_c #1 SMP Mon Sep 13 06:25:03 UTC 2021 (afa39b6) x86_64
+TestID              : 0
+StartTime           : Fri Mar 18 23:26:57 2022
+Path                : /var/opt/cray/dws/mounts/batch/56279498_striped_scratch//testFile.00000000
+FS                  : 1.0 TiB   Used FS: 0.3%   Inodes: 513.5 Mi   Used Inodes: 0.0%
+Participating tasks : 192
+
+Options: 
+api                 : posix
+apiVersion          : 
+test filename       : /var/opt/cray/dws/mounts/batch/56279498_striped_scratch//testFile
+access              : file-per-process
+type                : independent
+segments            : 1024
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 4
+tasks               : 192
+clients per node    : 48
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 1 GiB
+aggregate filesize  : 192 TiB
+verbose             : 2
+stonewallingTime    : 45
+stoneWallingWearOut : 0
+
+Results: 
+Using Time Stamp 1647671217 (0x623577b1) for Data Signature
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+Commencing write performance test: Fri Mar 18 23:26:57 2022
+WARNING: Expected aggregate file size       = 211106232532992
+WARNING: Stat() of aggregate file size      = 957177921536
+WARNING: Using actual aggregate bytes moved = 957177921536
+WARNING: Maybe caused by deadlineForStonewalling
+write     20235      20251      0.043980    1048576    1024.00    0.044133   45.08      0.089233   45.11      0   
+remove    -          -          -           -          -          -          -          -          0.020707   0   
+Max Write: 20235.32 MiB/sec (21218.27 MB/sec)
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write       20235.32   20235.32   20235.32       0.00   20235.32   20235.32   20235.32       0.00   45.11103         NA            NA     0    192  48    1   1     0        1         0    0   1024 1073741824  1048576  912836.0 posix      0
+Finished            : Fri Mar 18 23:27:43 2022

@@ -44,16 +44,24 @@ class BenchmarkParser():
             if result is not None:
                 return result
 
+def parse_results(files, **kwargs):
+    results = []
+    for filename in files:
+        parser = BenchmarkParser(filename)
+        result = parser.get_result()
+        if result is not None:
+            if kwargs:
+                result.update(kwargs)
+            results.append(result)
+    return results
+
 def main(argv=None):
     parser = argparse.ArgumentParser()
     parser.add_argument("file", nargs="+", type=str, help="IOR stdout or Elbencho csv outputs")
     args = parser.parse_args()
 
-    for filename in args.file:
-        parser = BenchmarkParser(filename)
-        result = parser.get_result()
-        if result is not None:
-            print(result)
+    for result in parse_results(args.file):
+        print(result)
 
 if __name__ == "__main__":
     main()

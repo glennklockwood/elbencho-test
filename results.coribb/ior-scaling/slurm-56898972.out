@@ -1,0 +1,30 @@
++ for threads in 1 2 4 8 16 24 32
+++ printf %02d 1
++ output_f=iops-direct.01threads.56898972
++ srun -N 4 -n 4 /global/u2/g/glock/src/git/ior-incompress/install.cori/bin/ior -a posix -F -t 4k -b 1g -s 1024 -z -l random -w -e --posix.odirect -D 45 -vv -o /var/opt/cray/dws/mounts/batch/56898972_striped_scratch//testFile
++ for threads in 1 2 4 8 16 24 32
+++ printf %02d 2
++ output_f=iops-direct.02threads.56898972
++ srun -N 4 -n 8 /global/u2/g/glock/src/git/ior-incompress/install.cori/bin/ior -a posix -F -t 4k -b 1g -s 1024 -z -l random -w -e --posix.odirect -D 45 -vv -o /var/opt/cray/dws/mounts/batch/56898972_striped_scratch//testFile
++ for threads in 1 2 4 8 16 24 32
+++ printf %02d 4
++ output_f=iops-direct.04threads.56898972
++ srun -N 4 -n 16 /global/u2/g/glock/src/git/ior-incompress/install.cori/bin/ior -a posix -F -t 4k -b 1g -s 1024 -z -l random -w -e --posix.odirect -D 45 -vv -o /var/opt/cray/dws/mounts/batch/56898972_striped_scratch//testFile
++ for threads in 1 2 4 8 16 24 32
+++ printf %02d 8
++ output_f=iops-direct.08threads.56898972
++ srun -N 4 -n 32 /global/u2/g/glock/src/git/ior-incompress/install.cori/bin/ior -a posix -F -t 4k -b 1g -s 1024 -z -l random -w -e --posix.odirect -D 45 -vv -o /var/opt/cray/dws/mounts/batch/56898972_striped_scratch//testFile
++ for threads in 1 2 4 8 16 24 32
+++ printf %02d 16
++ output_f=iops-direct.16threads.56898972
++ srun -N 4 -n 64 /global/u2/g/glock/src/git/ior-incompress/install.cori/bin/ior -a posix -F -t 4k -b 1g -s 1024 -z -l random -w -e --posix.odirect -D 45 -vv -o /var/opt/cray/dws/mounts/batch/56898972_striped_scratch//testFile
+srun: Warning: can't honor --ntasks-per-node set to 32 which doesn't match the requested tasks 64 with the number of requested nodes 4. Ignoring --ntasks-per-node.
++ for threads in 1 2 4 8 16 24 32
+++ printf %02d 24
++ output_f=iops-direct.24threads.56898972
++ srun -N 4 -n 96 /global/u2/g/glock/src/git/ior-incompress/install.cori/bin/ior -a posix -F -t 4k -b 1g -s 1024 -z -l random -w -e --posix.odirect -D 45 -vv -o /var/opt/cray/dws/mounts/batch/56898972_striped_scratch//testFile
+srun: Warning: can't honor --ntasks-per-node set to 32 which doesn't match the requested tasks 96 with the number of requested nodes 4. Ignoring --ntasks-per-node.
++ for threads in 1 2 4 8 16 24 32
+++ printf %02d 32
++ output_f=iops-direct.32threads.56898972
++ srun -N 4 -n 128 /global/u2/g/glock/src/git/ior-incompress/install.cori/bin/ior -a posix -F -t 4k -b 1g -s 1024 -z -l random -w -e --posix.odirect -D 45 -vv -o /var/opt/cray/dws/mounts/batch/56898972_striped_scratch//testFile

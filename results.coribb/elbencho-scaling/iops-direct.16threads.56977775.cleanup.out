@@ -1,0 +1,10 @@
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+RMFILES   Elapsed ms       :          0          4
+          Files/s          :      26315      15876
+          Files total      :         16         64
+---
+RMDIRS    Elapsed ms       :          0          2
+          Dirs/s           :      43835      21390
+          Dirs total       :         16         64
+---

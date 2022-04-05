@@ -1,0 +1,22 @@
+ISO DATE: 2022-04-04T17:16:17-0700
+COMMAND LINE: "../../src/elbencho/bin.cori/elbencho" "--hosts" "nid00932,nid01690,nid12959,nid12960," "--threads" "16" "--files" "1" "--size" "1t" "--block" "4k" "--blockvaralgo" "fast" "--blockvarpct" "0" "--mkdirs" "--write" "--sync" "--dirsharing" "--direct" "--delfiles" "--deldirs" "--timelimit" "45" "--resfile" "iops-direct.16threads.56977775.out" "--csvfile" "iops-direct.16threads.56977775.csv" "--livecsv" "iops-direct.16threads.56977775.live.csv" "--liveint" "5000" "--nolive" "/var/opt/cray/dws/mounts/batch/56977775_striped_scratch/" 
+
+OPERATION RESULT TYPE        FIRST DONE  LAST DONE
+========= ================   ==========  =========
+SYNC      Elapsed ms       :          0          0
+---
+
+MKDIRS    Elapsed ms       :          0          1
+          Dirs/s           :     516129      52805
+          Dirs total       :         16         64
+---
+
+SYNC      Elapsed ms       :          0          0
+---
+
+WRITE     Elapsed ms       :      45270      45272
+          IOPS             :     201366     202978
+          Throughput MiB/s :        786        792
+          Total MiB        :      35608      35895
+---
+
